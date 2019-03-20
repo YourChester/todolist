@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    outline: none;
 }
 
 header {
@@ -8,6 +10,7 @@ header {
     background-color: black;
     display: flex;
     justify-content: space-between;
+    border-bottom: 5px solid yellow;
 }
 
 .title {

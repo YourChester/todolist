@@ -21,7 +21,7 @@ function createToDoList(arr, name)
 }
 
 addList.addEventListener('click', () => {
-    console.log("add todo list")
+    document.location.href = '/addToDo.html'
 })
 
 createToDoList(arr,name)
